@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body, html{
+    height: 100%;
+    background-color: #9C85F3 !important;
+  }
+
+header figure img{
+    width: 80px;
+}
+
+#main-header{
+    width: 100%;
+}
+
+    #main-header-btn{
+        background-color: #D9D9D9;
+        color: #0C042A;
+    } 
+
+    #page-header{
+    background-color: #0C042A;
+    }
+
+    #navbar-page{
+        border-radius: 18px;
+        background-color: #fff;
+    }
+
+        nav ul li a:hover{
+            border-radius: 16px;
+            background-color: #9C85F3;
+            color: #0C042A;
+            transition: ease 0.8s;
+}
+
+#header-cadastro-cliente{
+    background-color: #fff;
+}
+
+#editar-footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+
+    background-color: #0C042A;
+    color: white;
+}
+
+#home-footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+
+    background-color: #0C042A;
+    color: white;
+}
+
+#cadform{
+    grid-area: 2 / 2/ 2 / 3;
+
+}
+
+.form-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 0.25fr);
+    
+}
+
+@media (max-width: 760px) {
+
+    #navegacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
